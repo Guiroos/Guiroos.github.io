@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(55, 169, 197);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', arial;
+  }
+
+  h1{
+    font-size: 60px;
+  }
+
+  h2{
+    text-decoration: underline;
+    font-size: 35px;
+  }
+
+  #sumario {
+    background-color:;
+  }
+
+  #escritasobremim{
+    text-align: justify;    
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing:;
+    margin-left: 400px;
+    margin-right: 40px;
+  }
+
+  #lista-competencias{
+      list-style:none;
+      font-size: 25px;
+  }
+
+  #hardskills{
+      text-align:left
+      margin-left: ;
+  }
+  
+  #softskills{
+    text-align: justify
+    margin-left: ;
+}
