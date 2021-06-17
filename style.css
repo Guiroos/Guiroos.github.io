@@ -1,17 +1,19 @@
 body {
     background-color: rgb(55, 169, 197);
-    text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Roboto Slab', arial;
   }
 
   h1{
     font-size: 60px;
+    text-align: center;
+    margin-right: 180px;
   }
 
   h2{
     text-decoration: underline;
     font-size: 35px;
+    margin-left: 30px
   }
 
   #sumario {
@@ -22,22 +24,30 @@ body {
     text-align: justify;    
     font-size: 25px;
     word-spacing: 10px;
-    letter-spacing:;
-    margin-left: 400px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 400px;
   }
 
-  #lista-competencias{
+  #lista-competencias-s, #lista-competencias-h{
       list-style:none;
       font-size: 25px;
+      columns: 2;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: rgb(73, 137, 153);
   }
 
-  #hardskills{
-      text-align:left
-      margin-left: ;
+  #hardskills, #softskills{
+      margin-left: 50px;
+      float: left;
   }
-  
-  #softskills{
-    text-align: justify
-    margin-left: ;
-}
+
+  #fotogui{
+      float: right;
+      border-radius: 30px;
+      padding: 20px;
+      width: 280px;
+      height: 280px;
+      object-fit: cover;
+      object-position: 10% 10% ;
+  }
