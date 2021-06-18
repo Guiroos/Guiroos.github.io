@@ -1,7 +1,7 @@
 body {
     background-color: rgb(55, 169, 197);
     color: rgb(255, 255, 255);
-    font-family: 'Roboto Slab', arial;
+    font-family: ;
   }
 
   h1{
@@ -17,7 +17,7 @@ body {
   }
 
   #sumario {
-    background-color:;
+    
   }
 
   #escritasobremim{
@@ -50,11 +50,13 @@ body {
   }
 
   #fotogui{
+      position:static;
+      bottom: 50px;
       float: right;
       border-radius: 30px;
       padding: 20px;
-      width: 280px;
-      height: 280px;
+      width: 270px;
+      height: 270px;
       object-fit: cover;
       object-position: 10% 10% ;
   }
@@ -66,14 +68,21 @@ body {
       list-style: none;
   }
 
+  #frase-carl{
+      font-size: 20px;
+      text-align: right;
+      font-style: italic;
+  }
+
   .inspiraçoes-tn{
       width: 200px;
       height: 200px;
   }
 
   .contato-tn{
-      margin-right: 50px;
-    float: right;
-    width: 50px;
-    height: 50px;
+      position: relative;
+        margin-right: 50px;
+        float: right;
+        width: 60px;
+        height: 60px;
   }
