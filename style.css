@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(55, 169, 197);
+    color: rgb(255, 255, 255);
+    font-family: ;
+  }
+
+  h1{
+    font-size: 60px;
+    text-align: center;
+    margin-right: 180px;
+  }
+
+  h2{
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 30px
+  }
+
+  #sumario {
+    
+  }
+
+  #escritasobremim{
+    text-align: justify;    
+    font-size: 25px;
+    word-spacing: 10px;
+    margin-left: 50px;
+    margin-right: 400px;
+  }
+
+  #lista-competencias-s, #lista-competencias-h{
+      list-style:inside;
+      line-height: 40px;
+      font-size: 25px;
+      columns: 2;
+      width: 950px;
+      height: 80px;
+      text-align: justify;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 5px;
+      margin: 10px;
+      background-color: rgba(60, 91, 99, 0.753);
+  }
+
+  #hardskills, #softskills{
+      font-size: 30px;
+      padding: 0px 80px 0px 50px;
+      margin: 20px 0px 0px 0px;
+  }
+
+  #fotogui{
+      position:static;
+      bottom: 50px;
+      float: right;
+      border-radius: 30px;
+      padding: 20px;
+      width: 270px;
+      height: 270px;
+      object-fit: cover;
+      object-position: 10% 10% ;
+  }
+
+  #lista-inspiracoes{
+      padding-top: 20px;
+      text-align: center;
+      columns: 3;
+      list-style: none;
+  }
+
+  #frase-carl{
+      font-size: 20px;
+      text-align: right;
+      font-style: italic;
+  }
+
+  .inspiraçoes-tn{
+      width: 200px;
+      height: 200px;
+  }
+
+  .contato-tn{
+      position: relative;
+        margin-right: 50px;
+        float: right;
+        width: 60px;
+        height: 60px;
+  }
