@@ -3,21 +3,15 @@
   src: url(fonts/RobotoSlab-Regular.ttf);
 }
 
-body {
+*{
+  margin: 0px;  
+}
+
+body{
     background-color: rgb(60, 60, 60);
     color: white;
     margin: 0px;
     font-family: 'RobotoSlab-Regular';
-  }
-
-  h2{
-    text-decoration: underline;
-    font-size: 35px;
-    margin-left: 30px
-  }
-
-  div{
-    display: block;
   }
 
   a{
@@ -27,99 +21,163 @@ body {
   header{
     position: relative;
     width: 100%;
-    height: 90px;
+    height: 100px;
     background-color: rgb(45, 45, 45);
+    border-bottom: 1px solid white;
   }
 
-  #header-container{
+  .header-container{
     position: relative;
-    width: 1800px;
-    height: 90px;
+    width: 1900px;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(45, 45, 45);
   }
 
-  #gui-titulo{
+  .gui-title{
     float: left;
-  }
-
-  #icons-container{
     position: relative;
-    top: 15px;
+    padding-left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 60px;   
+  }
+
+  .icons-container{
+    position: relative;
     float: right;
-  }
-
-  #escritasobremim{
-    text-align: justify;    
-    font-size: 25px;
-    word-spacing: 10px;
-    margin-left: 50px;
-    margin-right: 400px;
-  }
-
-  #lista-competencias-s, #lista-competencias-h{
-      list-style:inside;
-      line-height: 40px;
-      font-size: 25px;
-      columns: 2;
-      width: 950px;
-      height: 80px;
-      text-align: justify;
-      border: 2px solid white;
-      border-radius: 10px;
-      padding: 5px;
-      margin: 10px;
-      background-color: rgba(95, 105, 107, 0.753);
-  }
-
-  #hardskills, #softskills{
-      font-size: 30px;
-      padding: 0px 80px 0px 50px;
-      margin: 20px 0px 0px 0px;
-  }
-
-  #fotogui{
-      position:static;
-      bottom: 50px;
-      float: right;
-      border-radius: 30px;
-      padding: 20px;
-      width: 270px;
-      height: 270px;
-      object-fit: cover;
-      object-position: 10% 10% ;
-  }
-
-  #lista-inspiracoes{
-      padding-top: 20px;
-      text-align: center;
-      columns: 3;
-      list-style: none;
-  }
-
-  #frase-carl{
-      font-size: 20px;
-      text-align: right;
-      font-style: italic;
-      margin-right: 20px;
-  }
-
-  .inspiraçoes-tn{
-      width: 250px;
-      height: 250px;
+    top: 20px;
   }
 
   .contato-tn{
-      position: relative;
-      width: 60px;
-      height: 60px;
-      margin-right: 15px;
-      display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
   }
 
-  .titulo{
-    color: white;
-    font-size: 60px;
-    margin-top: 10px;
+  .sobre{
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    min-height: 320px;
+  }
+
+  .sobre-mim{
+    float: left;
+    text-align: justify;    
+    font-size: 25px;
+    width: 80%;
+    margin-left: 40px;
+  }
+
+  .sobre-mim p{
+    margin-bottom: 15px;
+  }
+
+  .living-em{
+    margin-top: 50px;
+    font-style: italic;
+  }
+
+  .title{
+    text-decoration: underline;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gui-image{
+    position:relative;
+    right: 20px;
+    top: 15px;
+    float: right;
+    border-radius: 30px;
+    width: 10%;
+    height: 270px;
+    object-fit: cover;
+    object-position: 10% 10% ;
+  }
+
+  .competencias{
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 40px;
+    display: inline-block;
+    background-color:rgb(85, 85, 85);
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+
+  .list-container{
+
+  }
+
+  .lista-competencias-s, .lista-competencias-h{
+    list-style:inside;
+    line-height: 40px;
+    font-size: 25px;
+    columns: 1;
+    width: 500px;
+    height: 160px;
+    padding: 10px;
+    text-align: justify;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(131, 130, 130);
+  }
+
+  .hard-skills, .soft-skills{
+    position: relative;
+    font-size: 30px;
+    float: left;
+  }
+
+  .hard-skills h3, .soft-skills h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .hard-skills{
+    left: 210px;
+  }
+
+  .soft-skills{
+    left: 610px;
+  }
+
+  .inspiraçoes{
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+
+  .inspiraçoes h2{
+    padding-left: 40px;
+  }
+
+  .lista-inspiracoes{
+    padding-top: 20px;
+    text-align: center;
+    columns: 3;
+    list-style: none;
+  }
+
+  .frase-carl{
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    margin-right: 20px;
+  }
+
+  .inspiraçoes-tn{
+    width: 250px;
+    height: 250px;
+  }
+
+  footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background-color: rgb(45, 45, 45);
   }
