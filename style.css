@@ -3,17 +3,15 @@
   src: url(fonts/RobotoSlab-Regular.ttf);
 }
 
+*{
+  margin: 0px;  
+}
+
 body {
     background-color: rgb(60, 60, 60);
     color: white;
     margin: 0px;
     font-family: 'RobotoSlab-Regular';
-  }
-
-  h2{
-    text-decoration: underline;
-    font-size: 35px;
-    margin-left: 30px
   }
 
   div{
@@ -27,38 +25,84 @@ body {
   header{
     position: relative;
     width: 100%;
-    height: 90px;
+    height: 100px;
     background-color: rgb(45, 45, 45);
+    border-bottom: 1px solid white;
   }
 
-  #header-container{
+  .header-container{
     position: relative;
-    width: 1800px;
-    height: 90px;
+    width: 1900px;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(45, 45, 45);
   }
 
-  #gui-titulo{
+  .gui-title{
     float: left;
-  }
-
-  #icons-container{
     position: relative;
-    top: 15px;
-    float: right;
+    padding-left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 60px;   
   }
 
-  #escritasobremim{
+  .icons-container{
+    position: relative;
+    float: right;
+    top: 20px;
+  }
+
+  .contato-tn{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+
+  .sobre{
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    min-height: 320px;
+  }
+
+  .sobre-mim{
+    float: left;
     text-align: justify;    
     font-size: 25px;
-    word-spacing: 10px;
-    margin-left: 50px;
-    margin-right: 400px;
+    width: 80%;
+    margin-left: 40px;
   }
 
-  #lista-competencias-s, #lista-competencias-h{
+  .sobre-mim p{
+    margin-bottom: 15px;
+  }
+
+  .living-em{
+    margin-top: 50px;
+    font-style: italic;
+  }
+
+  .title{
+    text-decoration: underline;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .gui-image{
+    position:relative;
+    right: 20px;
+    top: 15px;
+    float: right;
+    border-radius: 30px;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    object-position: 10% 10% ;
+  }
+
+  .lista-competencias-s, .lista-competencias-h{
       list-style:inside;
       line-height: 40px;
       font-size: 25px;
@@ -73,32 +117,20 @@ body {
       background-color: rgba(95, 105, 107, 0.753);
   }
 
-  #hardskills, #softskills{
+  .hardskills, .softskills{
       font-size: 30px;
       padding: 0px 80px 0px 50px;
       margin: 20px 0px 0px 0px;
   }
 
-  #fotogui{
-      position:static;
-      bottom: 50px;
-      float: right;
-      border-radius: 30px;
-      padding: 20px;
-      width: 270px;
-      height: 270px;
-      object-fit: cover;
-      object-position: 10% 10% ;
-  }
-
-  #lista-inspiracoes{
+  .lista-inspiracoes{
       padding-top: 20px;
       text-align: center;
       columns: 3;
       list-style: none;
   }
 
-  #frase-carl{
+  .frase-carl{
       font-size: 20px;
       text-align: right;
       font-style: italic;
@@ -108,18 +140,4 @@ body {
   .inspiraçoes-tn{
       width: 250px;
       height: 250px;
-  }
-
-  .contato-tn{
-      position: relative;
-      width: 60px;
-      height: 60px;
-      margin-right: 15px;
-      display: inline-block;
-  }
-
-  .titulo{
-    color: white;
-    font-size: 60px;
-    margin-top: 10px;
   }
