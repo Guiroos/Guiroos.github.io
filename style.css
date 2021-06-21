@@ -90,7 +90,7 @@ body{
     right: 20px;
     top: 15px;
     float: right;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 10%;
     height: 270px;
     object-fit: cover;
@@ -105,10 +105,6 @@ body{
     background-color:rgb(85, 85, 85);
     border-bottom: 1px solid white;
     padding-bottom: 20px;
-  }
-
-  .list-container{
-
   }
 
   .lista-competencias-s, .lista-competencias-h{
@@ -145,13 +141,13 @@ body{
     left: 610px;
   }
 
-  .inspiraçoes{
+  .inspiracoes{
     padding-top: 20px;
     border-bottom: 1px solid white;
     padding-bottom: 20px;
   }
 
-  .inspiraçoes h2{
+  .inspiracoes h2{
     padding-left: 40px;
   }
 
@@ -169,7 +165,7 @@ body{
     margin-right: 20px;
   }
 
-  .inspiraçoes-tn{
+  .inspiracoes-tn{
     width: 250px;
     height: 250px;
   }
