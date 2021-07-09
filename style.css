@@ -9,7 +9,7 @@ section {
 
 .color {
   display: inline-block;
-  border: solid black 1px;
+  border: solid black 2px;
   width: 100px;
   height: 100px;
 }
